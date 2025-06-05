@@ -20,8 +20,8 @@ This guide walks you through setting up a WordPress webserver on a VirtualBox VM
 - RAM: 2 GB+
 - Disk: 10 GB+
 - Network:
-  - Adapter 1: Bridged Adapter
-  - Adapter 2: (Optional) Host-only Adapter
+  - Adapter 1: Internal Network (`intnet`) – connects to firewall.
+  - Adapter 2: (Host-only Adapter (`vboxnet0`) – optional, used for SSH and setup.
 - Enable "Cable Connected" and set **Promiscuous Mode** to:
   - Webserver: Deny
 
